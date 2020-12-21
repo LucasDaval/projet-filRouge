@@ -38,7 +38,7 @@ if(array_key_exists("page", $_GET)){
         break;
 
 
-
+        // Méthode POST => Traitement de données
         case 'signIn':
             $controller = new UsersController();
             $controller->newUser($_POST);

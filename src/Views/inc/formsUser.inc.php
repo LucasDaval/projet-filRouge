@@ -1,5 +1,7 @@
 <div id="overlay">
     <span id="btnClose">&times;</span>
+
+    <!-- -------------------------------------- Form de connexion ---------------------------------------------------- -->
     <form action="?page=logIn" method="POST" id="formConnexion">
         <label for="email"><input type="text" placeholder="Email" name="email"></label>
         <label for="password"><input type="text" placeholder="Password" name="password"></label>
@@ -7,6 +9,8 @@
         <a href="#" id="btnSign">Pas encore de compte ?</a>
     </form>
 
+
+    <!-- -------------------------------------- Form d'inscription --------------------------------------------------- -->
     <form action="?page=signIn" method="POST" id="formSign">
         <label for="lastname"><input type="text" placeholder="Name" name="lastname"></label>
         <label for="firstname"><input type="text" placeholder="Firstname" name="firstname"></label>

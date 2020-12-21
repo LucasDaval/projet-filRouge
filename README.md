@@ -1,6 +1,6 @@
 # projet-filRouge
 
-Projet réalisé pour l'IIM  par Lucas DAVAL;
+Projet réalisé pour l'IIM  par Lucas DAVAL
 
 Pour faire fonctionner ce projet :
   --> faire pointer le serveur (document root) sur le dossier Public du projet.

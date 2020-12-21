@@ -1,0 +1,43 @@
+#logo{
+    background: url("../img/logoPsg.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    transform: translateX(-50%) translateY(0);
+
+    cursor: pointer;
+
+    #connexionMsg{
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        align-items: center;    
+    }
+
+    #userName{
+        @extend #connexionMsg;
+        font-size: 2rem;
+    }
+}
+
+.neon{
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;    
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fc2232, 0 0 20px #fc2232, 0 0 30px #fc2232, 0 0 40px #fc2232, 0 0 50px #fc2232, 0 0 60px #fc2232, 0 0 70px #fc2232, 0 0 90px #fc2232;
+        opacity: 1;
+    }
+    
+    to {
+        text-shadow: 0 0 20px #fc2232, 0 0 30px #fc2232, 0 0 40px #fc2232, 0 0 50px #fc2232, 0 0 60px #fc2232, 0 0 70px #fc2232, 0 0 80px #fc2232, 0 1 90px #fc2232;
+        opacity: 0;
+    }
+}
